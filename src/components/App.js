@@ -3,7 +3,7 @@ import '../styles/App.css';
 
 const App = () => {
 //code here 
-const [color,setColor] = useState("red");
+const [color,setColor] = useState("redColor");
 // const [setColor1] = useState("blue");
 
 
@@ -11,7 +11,7 @@ const [color,setColor] = useState("red");
   return (
     <div id="main">
       <p className={color} >Newton School</p>
-      <button id='button' onClick={() => setColor('blue')}>Change Style</button>
+      <button id='button' onClick={() => setColor('blueColor')}>Change Style</button>
     </div>
   )
 }
